@@ -3,9 +3,15 @@
     @page {
         size: A4;
     }
-    body {
-       font-size: 12pt;
+
+    //remove URLs in in <a> tags
+    a[href]:after {
+      content: none !important;
     }
+
+   //  body {
+   //     font-size: 12pt;
+   //  }
 
     img.avatar {
         filter: grayscale(1);
