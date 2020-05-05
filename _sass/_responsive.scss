@@ -6,8 +6,12 @@
     }
 
     .sidebar-wrapper {
-        position: static;
+        // position: static;
         width: inherit;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
     }
 
     .main-wrapper {
