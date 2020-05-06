@@ -108,22 +108,22 @@ skills:
 
     toolset:
       - name: SQL, PL/SQL (Oracle)
-        level: 96%
+        level: 92%
 
       - name: Javascript
-        level: 83%
-
-      - name: Web (ReactJS, HTML5, CSS)
-        level: 66%
+        level: 81%
 
       - name: OOP (Typescript, Dart)
         level: 62%   
+
+      - name: Web (ReactJS, HTML5, CSS)
+        level: 58%
 
       - name: Mobile (Flutter, Kotlin)
         level: 50%
       
       - name: Procedural (Golang)
-        level: 44%
+        level: 35%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
