@@ -73,6 +73,7 @@ experiences:
       company: BTM Global - Fulltime
       details: |
         - Create ETL processes to merge data from sources to datawarehouse
+        - BI reports using OBIEE / BIP
         - NetSuite ERP application developer
         - Customizing Oracle POS system in Java Core
 
@@ -82,7 +83,8 @@ additional-experiences:
       company: GreenX Network - Parttime
       details: |
         - Ethereum smart contract developer
-        - Built APIs & back-end for Blockchain system using NodeJS/Laravel
+        - Maintain & develop API (NodeJS) and backend (Laravel) servers
+        - Made good performance improvement on the API's authentication (OAuth2)
 
 projects:
     title: Notable Projects
