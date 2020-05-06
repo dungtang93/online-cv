@@ -19,3 +19,26 @@ jQuery(document).ready(function($) {
         }
     });
 });
+
+// skip animation when print to show the level bars
+(function() {
+    var beforePrint = function() {
+        $('.level-bar-inner').each(function() {
+            var itemWidth = $(this).data('level');
+            $(this).css({
+                width: itemWidth
+            }, 800);
+        });
+    };
+
+    if (window.matchMedia) {
+        var mediaQueryList = window.matchMedia('print');
+        mediaQueryList.addListener(function(mql) {
+            if (mql.matches) {
+                beforePrint();
+            }
+        });
+    }
+
+    window.onbeforeprint = beforePrint;
+}());

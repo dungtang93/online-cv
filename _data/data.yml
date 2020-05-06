@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Dung Tang Chi
+    name: Dung, Tang Chi
     tagline: Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -82,7 +82,7 @@ additional-experiences:
       company: GreenX Network - Parttime
       details: |
         - Ethereum smart contract developer
-        - Built APIs & back-end for Blockchain system using Laravel/NodeJS
+        - Built APIs & back-end for Blockchain system using NodeJS/Laravel
 
 projects:
     title: Notable Projects
@@ -90,7 +90,7 @@ projects:
       - title: Transaction History Loading
         tagline: |
           Migrated more than ten billion transactional records from source into database
-          - Built custom data pipeline via Korn shellscript, reduced load time from a month to 3-4 days
+          - Created custom data transferring pipeline via Korn shellscript, reduced load time from a month to 3-4 days
 
       - title: VietNam Financial Localization
         tagline: |
@@ -98,27 +98,32 @@ projects:
           - Data visualization via Javascript/HTML
           - Built from scratch an mini JSON storage for financial data
 
+      - title: GreenX Smartcontract
+        link: https://etherscan.io/token/0xdac15794f0fadfdcf3a93aeaabdc7cac19066724
+        tagline: |
+          ERC20 token contract for a three-phase ICO
+
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: SQL (Oracle)
-        level: 97%
+      - name: SQL, PL/SQL (Oracle)
+        level: 96%
 
-      - name: Javascript (NodeJS)
-        level: 86%
+      - name: Javascript
+        level: 83%
 
       - name: Web (ReactJS, HTML5, CSS)
-        level: 69%
+        level: 66%
 
       - name: OOP (Typescript, Dart)
-        level: 65%   
+        level: 62%   
 
       - name: Mobile (Flutter, Kotlin)
-        level: 54%
+        level: 50%
       
       - name: Procedural (Golang)
-        level: 42%
+        level: 44%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
