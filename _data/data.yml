@@ -44,13 +44,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software developer with _3 years of experience in data warehousing_ 
-      and _1 year in mission-critical enterprise database_ maintainance/development.
+      Software developer with _4 years of experience_ in data warehousing and in mission-critical enterprise database.
+      _Skilled at SQL and Javascript._
+
       _Certified Oracle NetSuite ERP developer_ with business know-how in the Retail field.
 
-      Skilled at SQL and Javascript, with a spanned knowledge across multiple fields include building 
-      Server/Blockchain/Mobile/Gaming... applications. Built an automated tool
-      to ease the deployment process across various IT teams when at Bosch.
+      Gaining OOP knowledge by making & contributing to open source projects.
 
       Good communication ability in English with a TOEIC score of 955.
 
@@ -67,6 +66,7 @@ experiences:
         - Main developer for the coporation's associate database (> 400,000 employee records)
         - Data transfer between multiple systems via ETL/Messaging queue
         - Analyze back-end .NET codes to find problems & suggest fixes
+        - Created an automated tool with Electron to ease the deployment process across various IT teams.
 
     - role: Junior Software Developer
       time: 2016 - 2019
