@@ -45,11 +45,9 @@ career-profile:
     title: Career Profile
     summary: |
       Software developer with _4 years of experience_ in data warehousing, working with ERP website and mission-critical enterprise database.
-      _Skilled at SQL and Javascript._
+      _Skilled at SQL and Javascript._ A quick learner that can adapt to new technology / languages quickly.
 
       Good communication ability in English with a TOEIC score of 955.
-
-      ***
 education:
     - degree: Bachelor of Computer Science
       university: PTIT (Post & Telecommunication Institute of Technology)
@@ -68,17 +66,9 @@ experiences:
       company: BTM Global - Fulltime
       details: |
         - Create ETL processes to merge data from sources to datawarehouse
+        - Monitor & provide support ASAP for suspended/failed job processes
         - BI reports using OBIEE / BIP
         - NetSuite ERP application developer
-
-additional-experiences:
-    - role: Back-end Developer
-      time: 2018 - 2018
-      company: GreenX Network - Parttime
-      details: |
-        - Ethereum smart contract developer
-        - Maintain & develop API (NodeJS) and backend (Laravel) servers
-        - Made good performance improvement on the API's authentication (OAuth2)
 
 projects:
     title: Notable Projects
@@ -93,11 +83,6 @@ projects:
         tagline: |
           Migrated billions of transactional records from source into database
           - Created custom data transferring pipeline via Korn shellscript, reduced load time from a month to 3-4 days
-
-      - title: GreenX Smartcontract
-        link: https://etherscan.io/token/0xdac15794f0fadfdcf3a93aeaabdc7cac19066724
-        tagline: |
-          ERC20 token contract for a three-phase ICO
 
 skills:
     title: Skills &amp; Proficiency
