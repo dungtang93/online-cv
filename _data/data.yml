@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software developer with _4 years of experience_ in data warehousing, working with ERP website and mission-critical enterprise database.
+      Software developer with _4 years of experience_ in data warehousing, ERP websites and mission-critical enterprise database.
       _Skilled at SQL and Javascript._ A quick learner that can adapt to new technology / languages quickly.
 
       Good communication ability in English with a TOEIC score of 955.
@@ -67,8 +67,9 @@ experiences:
       details: |
         - Create ETL processes to merge data from sources to datawarehouse
         - Monitor & provide support ASAP for suspended/failed job processes
+        - POS application developer (Java)
         - BI reports using OBIEE / BIP
-        - NetSuite ERP application developer
+        - NetSuite ERP web application developer
 
 projects:
     title: Notable Projects
@@ -94,7 +95,7 @@ skills:
       - name: Javascript
         level: 90%
 
-      - name: OOP (Typescript, Dart)
+      - name: OOP (Typescript)
         level: 70%
 
       - name: Web (HTML5, CSS)
