@@ -23,15 +23,15 @@
         -webkit-print-color-adjust: exact; 
     }
     .main-wrapper .section {
-        margin-bottom: 20px;
+        margin-bottom: 60px;
     }
     .item {
-        margin-bottom: 10px !important;
+        margin-bottom: 20px !important;
     }
     .sidebar-wrapper {
         -webkit-print-color-adjust: exact; 
         text-align: center;
-        min-height: 1025px; //simulate page break
+        // min-height: 1025px; //simulate page break
     }
     // .section.experiences-section {
     //     min-height: 530px; //simulate page break
