@@ -45,7 +45,10 @@ career-profile:
     title: Career Profile
     summary: |
       Software developer with _4 years of experience_ in data warehousing, ERP websites and mission-critical enterprise database.
-      _Skilled at SQL and Javascript._ A quick learner that can adapt to new technology / languages quickly.
+      _Skilled at SQL and Javascript._ 
+      
+      A quick learner that can adapt to new technology / languages quickly; have experience & interests in various fields across the industry
+      including Blockchain and Web.
 
       Good communication ability in English with a TOEIC score of 955.
 education:
@@ -58,8 +61,8 @@ experiences:
       company: Bosch - Fulltime
       details: |
         - Created an automated tool with Electron to ease the deployment process across various IT teams
-        - Main developer for the coporation's associate database (> 400,000 employee records)
-        - Data transfer between multiple systems via ETL/Messaging queue
+        - Developer for the coporation's internal employee-management application
+        - Handle data-transferring between multiple systems via ETL/Messaging queue
 
     - role: Junior Software Developer
       time: 2016 - 2019
@@ -71,35 +74,48 @@ experiences:
         - BI reports using OBIEE / BIP
         - NetSuite ERP web application developer
 
+additional-experiences:
+  - role: Back-end Developer
+    time: 2018 - 2018
+    company: GreenX Network - Parttime
+    details: |
+      - Ethereum smart contract developer
+      - Develop API (_NodeJS_) and backend (Laravel) servers
+
 projects:
     title: Notable Projects
     assignments:
       - title: VietNam Financial Localization
         tagline: |
           Implement localized accounting reports for NetSuite's ERP system
-          - Data visualization via Javascript/HTML
-          - Built from scratch an mini framework in Javascript for processing financial data
+          - Data visualization via _HTML/CSS_
+          - Built from scratch an mini library in _Javascript_ for processing financial data
 
       - title: Transaction History Loading
         tagline: |
           Migrated billions of transactional records from source into database
-          - Created custom data transferring pipeline via Korn shellscript, reduced load time from a month to 3-4 days
+          - Created custom data transferring pipeline via Korn _shellscript_, reduced load time from a month to 3-4 days
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: GreenX Smartcontract
+        link: https://etherscan.io/token/0xdac15794f0fadfdcf3a93aeaabdc7cac19066724
+        tagline: |
+          ERC20 token contract for a three-phase ICO
 
-    toolset:
-      - name: SQL, PL/SQL
-        level: 100%
+# skills:
+#     title: Skills &amp; Proficiency
 
-      - name: Javascript
-        level: 90%
+#     toolset:
+#       - name: SQL, PL/SQL
+#         level: 100%
 
-      - name: OOP (Typescript)
-        level: 70%
+#       - name: Javascript
+#         level: 90%
 
-      - name: Web (HTML5, CSS)
-        level: 55%
+#       - name: OOP (Typescript)
+#         level: 70%
+
+#       - name: Web (HTML5, CSS)
+#         level: 55%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
