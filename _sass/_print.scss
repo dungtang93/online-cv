@@ -35,19 +35,39 @@
         display: inline-grid;
         width: 35%;
         border-right: 1px solid black;
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            /* IE10+ CSS */
+            width: 100%;
+            border-right: none;
+         }
+        @supports (-ms-ime-align:auto) {
+            /* Edge */
+            width: 100%;
+            border-right: none;
+        }
     }
     .main-wrapper {
-        display: contents; //allows free flow
-    }
-    .main-wrapper section.summary-section {
-        width: 60%;
-        page-break-after: always;
-        padding-left: 6px;
+        display: contents; //allows free flow, not working in IE/edge
     }
     .main-wrapper section {
         display: inline-grid;
         page-break-after: always;
-        page-break-inside: avoid;
+
+        &.summary-section {
+            width: 60%;
+            padding-left: 6px;
+            
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+                /* IE10+ CSS */
+                padding-left: 0px;
+                width: 100%;
+             }
+            @supports (-ms-ime-align:auto) {
+                /* Edge */
+                padding-left: 0px;
+                width: 100%;
+            }
+        }
     }
 
     .remove-container.container-block {
