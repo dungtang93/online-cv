@@ -26,9 +26,28 @@
 
     {% if experience.details %}
     <div class="details">
-      {{ experience.details | markdownify }}
+      {{ experience.details }}
     </div><!--//details-->
     {% endif %}
+
+    <div class="projects">
+    {% for project in experience.projects %}
+      <i class="{{ project.icon }}"></i>
+      <span class="project-title">
+        {% if project.link %}
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+          {{ project.title }}
+        {% endif %}
+      </span>
+      {% if project.role %}
+        <div class="upper-row company">Role: {{ project.role }}</div>
+      {% endif %}
+      {% if project.tagline %}
+        <div class="project-tagline">{{ project.tagline | markdownify }}</div>
+      {% endif %}
+    {% endfor %}
+    </div>
 
   </div><!--//item-->
   {% endfor %}
@@ -61,9 +80,28 @@
 
     {% if experience.details %}
     <div class="details">
-      {{ experience.details | markdownify }}
+      {{ experience.details }}
     </div><!--//details-->
     {% endif %}
+
+    <div class="projects">
+    {% for project in experience.projects %}
+      <i class="{{ project.icon }}"></i>
+      <span class="project-title">
+        {% if project.link %}
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+          {{ project.title }}
+        {% endif %}
+      </span>
+      {% if project.role %}
+        <div class="upper-row company">Role: {{ project.role }}</div>
+      {% endif %}
+      {% if project.tagline %}
+        <div class="project-tagline">{{ project.tagline | markdownify }}</div>
+      {% endif %}
+    {% endfor %}
+    </div>
 
   </div><!--//item-->
   {% endfor %}

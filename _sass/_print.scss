@@ -17,13 +17,14 @@
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
     }
+    .wrapper {
+        display: block;
+        flex-direction: inherit; //remove flex attributes
+    }
    .main-wrapper .time {
         float: right;
         color: black !important;
         -webkit-print-color-adjust: exact; 
-    }
-    .main-wrapper .section {
-        margin-bottom: 60px;
     }
     .item {
         margin-bottom: 20px !important;
@@ -31,11 +32,23 @@
     .sidebar-wrapper {
         -webkit-print-color-adjust: exact; 
         text-align: center;
-        // min-height: 1025px; //simulate page break
+        display: inline-grid;
+        width: 35%;
+        border-right: 1px solid black;
     }
-    // .section.experiences-section {
-    //     min-height: 530px; //simulate page break
-    // }
+    .main-wrapper {
+        display: contents; //allows free flow
+    }
+    .main-wrapper section.summary-section {
+        width: 60%;
+        page-break-after: always;
+        padding-left: 6px;
+    }
+    .main-wrapper section {
+        display: inline-grid;
+        page-break-after: always;
+        page-break-inside: avoid;
+    }
 
     .remove-container.container-block {
        display: none;
