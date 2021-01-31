@@ -44,10 +44,10 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Software developer with _4 years of experience_ in database, data warehousing, ERP websites and mission-critical enterprise database.
-    _Skilled at SQL and Javascript._ 
+    A Software developer with _4.5 years of professional experience_ in data-related fields including data warehousing, ETL &
+    reporting; an _Open-source hobbyish_ with a desire to contribute & help getting things better. 
 
-    A quick learner that can adapt to new technology / languages quickly; have experience & interests in various fields across the industry.
+    A quick learner that can adapt quickly into new code bases, and work with many kinds of technologies.
 
     Good communication ability in English with a TOEIC score of 955.
 education:
@@ -55,6 +55,19 @@ education:
     university: PTIT (Post & Telecommunication Institute of Technology)
     time: 2011 - 2015
 experiences:
+  - role: DBA
+    time: 2020 - now
+    company: Nexcel - Fulltime
+    # details: description
+    projects:
+      - title: Datawarehouse reporting system
+        icon: fas fa-briefcase
+        role: Datawarehouse developer
+        tagline: |
+          - Maintain custom datawarehouse
+          - Create ETL pipelines into target Microsoft SQL Server for reporting
+          - Database performance bottleneck analysis / improvements
+
   - role: Database Engineer
     time: 2019 - 2020
     company: Bosch - Fulltime
@@ -64,10 +77,8 @@ experiences:
         icon: fas fa-user-cog
         role: Database developer
         tagline: |
-          - Main developer for corporate's employees database (with more than 400,000 employee records), create PL/SQL packages
-          - Implement ETL processes to integrate with other systems via staging / messaging queue 
-          - Monitor & fix issues raised from customer tickets ASAP
-          - Analyze new requirements from customers & implement changes without affecting users
+          - Main developer for corporate's employees Oracle database
+          - Implement ETL processes to integrate with other systems via staging / messaging queue
           - Code base refactoring & performance improvements
           - Support backend .NET team on investigating issue & bug fixing
 
@@ -104,8 +115,7 @@ experiences:
         role: Javascript developer
         tagline: |
           - Design a library on top of [NetSuite ERP](https://www.netsuite.com/portal/home.shtml) to add support for Vietnam financial reports
-          - Report displaying via pure Javascript / HTML / CSS
-          - Research Vietnam accounting & financial system
+          - Report displaying via Javascript / HTML / CSS
 
 additional-experiences:
   - role: Back-end Developer
@@ -119,9 +129,7 @@ additional-experiences:
         role: Backend developer
         tagline: |
           - Build Ethereum smart contracts (ERC-20 standard)
-          - Develop NodeJS API server's authentication strategy (Passportjs)
-          - Synchronize blockchain data with MySQL database (Web3js)
-          - Maintain, develop front-end landing page (Laravel Blade)
+          - Synchronize blockchain data with MySQL database via a node built with Nodejs
 
 # skills:
 #     title: Skills &amp; Proficiency
