@@ -21,11 +21,16 @@
         display: block;
         flex-direction: inherit; //remove flex attributes
     }
-   .main-wrapper .time {
-        float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-    }
+   .main-wrapper {
+        .time {
+            float: right;
+            color: black !important;
+            -webkit-print-color-adjust: exact; 
+        }
+        .experiences-section {
+            width: 100%;
+        }
+   }
     .item {
         margin-bottom: 20px !important;
     }

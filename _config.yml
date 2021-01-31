@@ -2,15 +2,13 @@
 
 # Site Settings
 title: Dung Tang's Resume
-baseurl: '/cv' #change it according to your repository name
+baseurl: "/cv" #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
 analytics: G-L5Q6M774R7
-
-
 
 # Sass/SCSS
 sass:
@@ -28,5 +26,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: 127.0.0.1
 safe: false
