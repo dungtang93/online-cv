@@ -17,6 +17,7 @@ sidebar:
   # website: blog.webjeda.com #do not add http://
   linkedin: dung-tang
   github: tcd93
+  whatsapp: 84932082292
   # gitlab:
   # bitbucket:
   # twitter: '@webjeda'
@@ -44,9 +45,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    4.5 years of professional experience in data-related fields & an open-source contributor/enthusiast. 
-
-    A quick learner that can adapt quickly into new code bases, and work with many kinds of technologies.
+    4.5 years of professional experience in data-related fields, expertise in relational databases (MSSQL, Oracle) and Datawarehousing.
+    
+    An open-source contributor/enthusiast; quick to adapt into new code bases, and work with many kinds of technologies.
 
     Good communication ability in English with a TOEIC score of 955.
 education:

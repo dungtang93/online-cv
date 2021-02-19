@@ -41,6 +41,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.whatsapp %}
+    <li class="website"><i class="fab fa-whatsapp"></i>
+      <a href="https://api.whatsapp.com/send?phone={{ sidebar.whatsapp }}" target="_blank">{{ sidebar.whatsapp }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
       <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
