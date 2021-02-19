@@ -44,8 +44,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A Software developer with _4.5 years of professional experience_ in data-related fields including data warehousing, ETL &
-    reporting; an _Open-source hobbyish_ with a desire to contribute & help getting things better. 
+    4.5 years of professional experience in data-related fields & an open-source contributor/enthusiast. 
 
     A quick learner that can adapt quickly into new code bases, and work with many kinds of technologies.
 
@@ -55,17 +54,17 @@ education:
     university: PTIT (Post & Telecommunication Institute of Technology)
     time: 2011 - 2015
 experiences:
-  - role: DBA
+  - role: Database Administrator
     time: 2020 - now
     company: Nexcel - Fulltime
     # details: description
     projects:
-      - title: Datawarehouse reporting system
+      - title: Reporting System
         icon: fas fa-briefcase
         role: Datawarehouse developer
         tagline: |
           - Maintain custom datawarehouse
-          - Create ETL pipelines into target Microsoft SQL Server for reporting
+          - Create ETL pipelines to extract data into target Microsoft SQL Server
           - Database performance bottleneck analysis / improvements
 
   - role: Database Engineer
@@ -107,8 +106,7 @@ experiences:
         icon: fas fa-database
         role: ETL developer
         tagline: |
-          - Load billions of transaction data from source to target datawarehouse in acceptable time (3 days)
-          - An custom ETL flow was crafted by shellscripts to utilize maximum CPU power for performance
+          - Load billions of transaction data from source to target datawarehouse in acceptable time
 
       - title: Vietnam Financial Localization
         icon: fas fa-receipt
