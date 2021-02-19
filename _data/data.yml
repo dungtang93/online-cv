@@ -64,9 +64,9 @@ experiences:
         icon: fas fa-briefcase
         role: Datawarehouse developer
         tagline: |
-          - Maintain custom datawarehouse
-          - Create ETL pipelines to extract data into target Microsoft SQL Server
-          - Database performance bottleneck analysis / improvements
+          - Maintain a custom datawarehouse built on Star schema
+          - Create ETL pipelines (SSIS) to extract data into target Microsoft SQL Server
+          - Database performance bottleneck improvements / query plan analysis
 
   - role: Database Engineer
     time: 2019 - 2020
@@ -86,8 +86,8 @@ experiences:
         icon: fas fa-robot
         role: Javascript developer
         tagline: |
-          - Create a desktop tool in Electron to compare, test & deploy SQL scripts automatically
-          - Improve the team's efficiency in script deployment process
+          - Created a desktop tool in Electron to compare, test & deploy SQL scripts automatically
+          - Improved team's efficiency in script deployment process
 
   - role: Software Developer
     time: 2016 - 2019
