@@ -21,7 +21,7 @@ sidebar:
   # gitlab:
   # bitbucket:
   # twitter: '@webjeda'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  stack-overflow: # Number/Username, e.g. 123456
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -45,76 +45,75 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    4.5 years of professional experience in data-related fields, expertise in relational databases (MSSQL, Oracle) and Datawarehousing.
-    
-    An open-source contributor/enthusiast; quick to adapt into new code bases, and work with many kinds of technologies.
+    _(try the [online version](https://tcd93.github.io/cv/))_
+
+    Software engineer with 5 years of experience working closely with relational database engines, analyzing & building pipelines for data warehouses.
+
+    Self-motivated, eager to contribute whether it's Open-source or Proprietary; have built tools and experimented with many languages including Go, JavaScript...
 
     Good communication ability in English with a TOEIC score of 955.
+
 education:
   - degree: Bachelor of Computer Science
     university: PTIT (Post & Telecommunication Institute of Technology)
     time: 2011 - 2015
+
 experiences:
-  - role: Database Administrator
+  - role: Database Developer
     time: 2020 - now
     company: Nexcel - Fulltime
     # details: description
     projects:
       - title: Reporting System
         icon: fas fa-briefcase
-        role: Datawarehouse developer
+        # role: Data warehouse developer
         tagline: |
-          - Maintain a custom datawarehouse built on Star schema
-          - Create ETL pipelines (SSIS) to extract data into target Microsoft SQL Server
-          - Database performance bottleneck improvements / query plan analysis
+          - Maintain & develop a data warehouse on Star schema model
+          - Create ETL pipelines to extract data from sources (MySQL, MSSQL...) into target, automated testings to ensure data integrity
+          - Performance bottleneck improvements / query plan analysis
+          - Perform administrative tasks; communicate closely with application developers to come up with data models that is cost effective & easy to scale
 
-  - role: Database Engineer
+  - role: Software Engineer
     time: 2019 - 2020
     company: Bosch - Fulltime
     # details: description
     projects:
       - title: Customer Administration Tool
         icon: fas fa-user-cog
-        role: Database developer
+        # role: Database developer
         tagline: |
-          - Main developer for corporate's employees Oracle database
-          - Implement ETL processes to integrate with other systems via staging / messaging queue
-          - Code base refactoring & performance improvements
-          - Support backend .NET team on investigating issue & bug fixing
+          - Developer & maintainer for corporate's customer administrative tool (Oracle)
+          - Implement processes / messaging queues to integrate with other systems
+          - Data analysis, code analysis on a variety of code bases written in PL/SQL, C# and Visual Basic
 
       - title: Automated Script Deployment Tool
         icon: fas fa-robot
-        role: Javascript developer
+        # role: JavaScript developer
         tagline: |
-          - Created a desktop tool in Electron to compare, test & deploy SQL scripts automatically
-          - Improved team's efficiency in script deployment process
+          - Realizing the importance of _automations_, I created a desktop tool with Javascript to hasten up the deployment process 
+          of SQL scripts which helped drive the efficiency of the dev team
 
   - role: Software Developer
     time: 2016 - 2019
     company: BTM Global - Fulltime
     # details: description
     projects:
-      - title: Datawarehouse Customizing
-        icon: fas fa-table
-        role: Datawarehouse developer
-        tagline: |
-          - Main maintainer of Oracle [Retail Insights](https://docs.oracle.com/cd/E22577_01/pdf/150/ri/html/user_guide/introduction.htm) datawarehouse 
-          - Customize ETL processes (ODI), add new dimensions based on customer need
-          - Data visualization via BI tools (OBIEE, BIP)
-          - Daily job monitoring & customer support
-
-      - title: History Data Loading
-        icon: fas fa-database
-        role: ETL developer
-        tagline: |
-          - Load billions of transaction data from source to target datawarehouse in acceptable time
-
       - title: Vietnam Financial Localization
         icon: fas fa-receipt
-        role: Javascript developer
+        # role: JavaScript developer
         tagline: |
-          - Design a library on top of [NetSuite ERP](https://www.netsuite.com/portal/home.shtml) to add support for Vietnam financial reports
-          - Report displaying via Javascript / HTML / CSS
+          - Was selected to study abroad in Sydney for an Oracle certificate
+          - Design a library on top of [NetSuite Cloud ERP](https://www.netsuite.com/portal/home.shtml) to add support for Vietnam financial reports
+          - Report visualization via raw Javascript / HTML / CSS
+
+      - title: Data warehouse Customizing
+        icon: fas fa-table
+        # role: Data warehouse developer
+        tagline: |
+          - Main maintainer of Oracle [Retail Insights](https://docs.oracle.com/cd/E22577_01/pdf/150/ri/html/user_guide/introduction.htm) 
+          - Handled loading billions of transactional data in timely manner
+          - Data visualization with BI tools, custom & manage complex pipelines
+          - Direct customer support; daily job monitoring
 
 additional-experiences:
   - role: Back-end Developer
@@ -128,7 +127,7 @@ additional-experiences:
         role: Backend developer
         tagline: |
           - Build Ethereum smart contracts (ERC-20 standard)
-          - Synchronize blockchain data with MySQL database via a node built with Nodejs
+          - Synchronize blockchain data with MySQL database by a server built with Nodejs
 
 # skills:
 #     title: Skills &amp; Proficiency
@@ -137,7 +136,7 @@ additional-experiences:
 #       - name: SQL, PL/SQL
 #         level: 100%
 
-#       - name: Javascript
+#       - name: JavaScript
 #         level: 90%
 
 #       - name: OOP (Typescript)

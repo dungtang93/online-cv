@@ -78,6 +78,9 @@
     .remove-container.container-block {
        display: none;
     }
+    .print-show-container.container-block {
+        display: inline-grid;
+     }
 
     footer {
        display: none;

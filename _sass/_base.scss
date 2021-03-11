@@ -29,6 +29,10 @@ p {
     line-height: 1.5;
 }
 
+.print-show-container.container-block {
+    display: none;
+ }
+
 .wrapper {
     display: flex;
     display: -webkit-box;
