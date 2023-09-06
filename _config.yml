@@ -2,15 +2,16 @@
 
 # Site Settings
 title: Dung Tang's Resume
-baseurl: '/cv' #change it according to your repository name
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/cv'
+url: 'https://tcd93.online'
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
 analytics: G-L5Q6M774R7
-
-
 
 # Sass/SCSS
 sass:

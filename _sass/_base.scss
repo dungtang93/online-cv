@@ -1,16 +1,21 @@
 /* ======= Base ======= */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: $text-color-secondary;
-    background: $smoky-white;
-    font-size: 14px;
-    padding: 30px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  color: $text-color-secondary;
+  background: $smoky-white;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6  {
-    font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
 a {
@@ -26,7 +31,7 @@ a {
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .wrapper {
@@ -39,6 +44,7 @@ p {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
+    @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .sidebar-wrapper {
@@ -92,7 +98,7 @@ p {
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
-        .fas, .fab {
+        .fas, .fab, .far {
             margin-right: 5px;
             font-size: 18px;
             vertical-align: middle;
@@ -127,7 +133,7 @@ p {
             }
         }
         .meta {
-            color: rgba(256, 256, 256, 0.7);
+            color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;
             margin-top: 0;
@@ -140,29 +146,29 @@ p {
     }
     .languages-container {
         .lang-desc {
-            color: rgba(256, 256, 256, 0.7);
+            color: rgba(256, 256, 256, 0.6);
         }
     }
 
-    .languages-list {
+  .languages-list {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 10px;
+      &:last-child {
         margin-bottom: 0;
-        li {
-            margin-bottom: 10px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
+      }
     }
+  }
 
-    .interests-list {
+  .interests-list {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 10px;
+      &:last-child {
         margin-bottom: 0;
-        li {
-            margin-bottom: 10px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
+      }
     }
+  }
 }
 
 .main-wrapper {
@@ -202,12 +208,13 @@ p {
             margin-bottom: 30px;
         }
     }
-    .upper-row {
+    .upper-row, .second-upper-row {
         position: relative;
         overflow: hidden;
         margin-bottom: 2px;
+        display: flex;
     }
-    .job-title, .degree {
+    .job-title, .degree, .cert-title {
         color: $text-color;
         font-size: 17px;
         font-style: italic;
@@ -215,13 +222,14 @@ p {
         margin-bottom: 0;
         font-weight: bold;
     }
-    .time {
+    .time, .cert-url {
         position: absolute;
         right: 0;
         top: 0;
         color: $text-grey;
+        flex: 25%;
     }
-    .company, .university {
+    .company, .university, .cert-org {
         margin-bottom: 10px;
         color: $text-grey;
         font-size: small;
@@ -249,61 +257,57 @@ p {
         }
     }
 
-    .publication-title {
-        font-size: 16px;
-        font-weight: 400;
-        color: $text-color;
-        margin-bottom: 1px;
+  .publication-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    margin-bottom: 1px;
+  }
+  .publication-authors {
+    font-style: italic;
+    color: $text-grey;
+    margin-bottom: 1px;
+  }
+  .publications-section {
+    .intro {
+      margin-bottom: 30px;
     }
-    .publication-authors {
-        font-style: italic;
-        color: $text-grey;
-        margin-bottom: 1px;
+    .item {
+      margin-bottom: 15px;
     }
-    .publications-section {
-        .intro {
-            margin-bottom: 30px;
-        }
-        .item {
-            margin-bottom: 15px;
-        }
-    }
+  }
 }
-
 
 .skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
-    }
+  .item {
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  .level-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .level-bar {
+    height: 12px;
+    background: $smoky-white;
+  }
+  .level-bar-inner {
+    height: 12px;
+    background: lighten($theme-color, 15%);
+  }
 }
-
-
-
 
 .footer {
-    padding-top: 30px;
-    .copyright {
-        line-height: 1.6;
-        color: $text-color-secondary;
-        font-size: 13px;
-    }
+  padding-top: 30px;
+  .copyright {
+    line-height: 1.6;
+    color: $text-color-secondary;
+    font-size: 13px;
+  }
 
-    .fa-heart {
-        color: $heart;
-    }
-
+  .fa-heart {
+    color: $heart;
+  }
 }
+
