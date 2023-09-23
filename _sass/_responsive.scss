@@ -16,17 +16,18 @@
     .main-wrapper {
         padding: 30px;
         box-shadow: none;
+
+        .upper-row {
+          margin-bottom: 0;
+          display: flex;
+        }
+
+        .time, .cert-url {
+          position: relative;
+          flex: 1;
+          text-align: right;
+        }
     }
-
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
-  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
