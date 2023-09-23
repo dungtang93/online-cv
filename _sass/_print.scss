@@ -50,10 +50,9 @@
         display: contents; //allows free flow, not working in IE/edge
     }
     .main-wrapper section {
-        display: inline-grid;
-        page-break-after: always;
 
         &.summary-section {
+            display: inline-grid;
             width: 60%;
             padding-left: 6px;
             
@@ -67,6 +66,10 @@
                 padding-left: 0px;
                 width: 100%;
             }
+        }
+
+        &.experiences-section {
+            page-break-before: always;
         }
     }
 
