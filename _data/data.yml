@@ -126,7 +126,7 @@ certifications:
           organization: IIG
 
 publications:
-    title: Researches
+    title: Tech Docs
     # intro: |
     #   You can list your publications in this section.
     papers:
@@ -136,7 +136,10 @@ publications:
         # conference: Addison-Wesley, 1968
 
       - title: "MSSQL execution plan introduction"
-        link: "https://github.com/tcd93/MSSQL-execution-plan"
+        link: "https://tcd93.github.io/MSSQL-execution-plan/"
+
+      - title: "Performant SQL writing"
+        link: "https://tcd93.github.io/writing-better-SQL/"
 
 # skills:
 #     title: Skills &amp; Proficiency
