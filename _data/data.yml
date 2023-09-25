@@ -63,6 +63,7 @@ experiences:
         - Built custom data warehouse and ETL processes from scratch (__SQL Server__, SSIS)
         - Design SSAS models for _data analytics_ and custom visuals via Typescript on PowerBI
         - Optimize T-SQL query execution plans
+        - Write stored procedures for other reporting services
 
     - role: SQL Developer
       time: 2019 - 2020
