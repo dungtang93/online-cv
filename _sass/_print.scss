@@ -1,5 +1,12 @@
 @media print
    {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+    }
+
     @page {
         size: A4;
     }
@@ -9,67 +16,49 @@
       content: none !important;
     }
 
-   //  body {
-   //     font-size: 12pt;
-   //  }
+    body {
+       font-size: 11pt;
+    }
 
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
     }
+
     .wrapper {
         display: block;
-        flex-direction: inherit; //remove flex attributes
-    }
-   .main-wrapper .time {
-        float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-    }
-    .item {
-        margin-bottom: 20px !important;
-    }
-    .sidebar-wrapper {
-        -webkit-print-color-adjust: exact; 
-        text-align: center;
-        display: inline-grid;
-        width: 35%;
-        border-right: 1px solid black;
-        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-            /* IE10+ CSS */
-            width: 100%;
-            border-right: none;
-         }
-        @supports (-ms-ime-align:auto) {
-            /* Edge */
-            width: 100%;
-            border-right: none;
-        }
-    }
-    .main-wrapper {
-        display: contents; //allows free flow, not working in IE/edge
-    }
-    .main-wrapper section {
+        height: 297mm;
+        overflow-y: hidden;
 
-        &.summary-section {
-            display: inline-grid;
-            width: 60%;
-            padding-left: 6px;
-            
-            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-                /* IE10+ CSS */
-                padding-left: 0px;
-                width: 100%;
-             }
-            @supports (-ms-ime-align:auto) {
-                /* Edge */
-                padding-left: 0px;
-                width: 100%;
+        .sidebar-wrapper {
+            display: inline-block;
+            width: 20%;
+            text-align: right;
+            vertical-align: top;
+            min-width: min-content;
+            min-height: min-content;
+            border-right: 1px solid black;
+            height: 100%;
+        }
+        .main-wrapper {
+            display: inline-block;
+            width: calc(75% - 30px); // account for some spaces to fit
+            height: 100%;
+            padding: 10px;
+
+            .section {
+                padding-left: 6px;
+                margin-bottom: 15px;
+
+                .item {
+                    margin-bottom: 10px;
+                }
             }
-        }
-
-        &.experiences-section {
-            page-break-before: always;
+    
+            .time {
+                // float: right;
+                color: black !important;
+            }
         }
     }
 
@@ -83,7 +72,6 @@
 
     .skillset .level-bar-inner {
        background-color: black !important;
-       -webkit-print-color-adjust: exact; 
     }
 
    .fa-inverse,

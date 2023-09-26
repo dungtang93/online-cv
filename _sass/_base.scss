@@ -36,10 +36,10 @@ p {
 
 .wrapper {
     display: flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+    // display: -webkit-box;
+    // display: -moz-box;
+    // display: -ms-flexbox;
+    // display: -webkit-flex;
     background:$theme-color;
     max-width: 1000px;
     margin: 0 auto;
