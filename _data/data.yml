@@ -49,6 +49,8 @@ career-profile:
 
       Good English communication, quick researcher and like technical writing.
 education:
+  title: Education
+  info:
     - degree: Bachelor of Computer Science
       university: PTIT (Post & Telecommunication Institute of Technology)
       time: 2011 - 2015
@@ -124,7 +126,7 @@ certifications:
         - name: TOEIC
           start: 2022
           end: 2024
-          organization: IIG
+          organization: Score 990
 
 publications:
     title: Tech Docs
