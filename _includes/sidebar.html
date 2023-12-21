@@ -15,19 +15,40 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div><!--//profile-container-->
+  </div>
+  <!--//profile-container-->
 
   {% include contact.html %}
 
   {% if sidebar.education %}
-    {% include education.html %}
+  {% include education.html %}
   {% endif %}
 
   {% include language.html %}
   {% include interests.html %}
 
   {% if sidebar.about %}
-    {% include about.html %}
+  {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+  {% if sidebar.github %}
+  <div class="container-block remove-container">
+    <h2 class="container-block-title">
+      Github Stats
+    </h2>
+    <a href="https://github.com/{{ sidebar.github }}"><img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ sidebar.github }}&hide=shell&theme=cobalt"
+        alt="Top Langs" data-canonical-src="h" style="max-width:100%;"></a>
+  </div>
+  <div class="container-block print-show-container">
+    <h2 class="container-block-title">
+      Github Stats
+    </h2>
+    <a href="https://github.com/{{ sidebar.github }}"><img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ sidebar.github }}&hide=shell&bg_color=ffffff&title_color=000000&layout=compact"
+        alt="Top Langs" data-canonical-src="h" style="max-width:100%;"></a>
+  </div>
+  {% endif %}
+
+</div>
+<!--//sidebar-wrapper-->

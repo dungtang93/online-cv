@@ -6,109 +6,134 @@ sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Dũng, Tăng Chí
-    tagline: Pronounced "Yung"
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Dũng, Tăng Chí
+  tagline: Pronounced "Yung"
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Sidebar links
+  email: dungtang93@gmail.com
+  # phone: xxxxxxxxxxx
+  # website: blog.webjeda.com #do not add http://
+  linkedin: dung-tang
+  github: tcd93
+  # gitlab:
+  # bitbucket:
+  # twitter: '@webjeda'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  # pdf: http://www.africau.edu/images/default/sample.pdf
 
-    # Sidebar links
-    email: dungtang93@gmail.com
-    # phone: xxxxxxxxxxx
-    # website: blog.webjeda.com #do not add http://
-    linkedin: dung-tang
-    github: tcd93
-    # gitlab:
-    # bitbucket:
-    # twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    # pdf: http://www.africau.edu/images/default/sample.pdf
+  languages:
+    - idiom: English
+      level: Professional
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
+    - idiom: Mandarin
+      level: Intermediate
 
-        - idiom: Mandarin
-          level: Intermediate
+  # interests:
+  #   - item: Climbing
+  #     link:
 
-    interests:
-      title: Hobby
-      info:
-      - item: Contributing to open source projects
-        link: https://github.com/tcd93
+  #   - item: Snowboarding
+  #     link:
+
+  #   - item: Cooking
+  #     link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Software engineer with over _6 years of experience_ with data warehousing and software developing both in outsourced and in-house products.
-      
-      Interested in cloud (in fact __I want to work in a cloud-friendly environment__), currently have an active Amazon associate level certificate (2023).
+  title: Career Profile
+  summary: |
+    More than 7 years of experience in the industry, from building retail POS applications 
+    to ETL data pipelines and visualizations, I'm still always curious about how software works.
 
-      Good English communication, quick researcher and like technical writing.
+    Have been working as a Data Engineer in the last 5 years or so, understand *relational databases* 
+    (SQL Server, Oracle, MySQL) extensively, performance optimizations. Help created a *data warehousing* 
+    solution from scratch. Able to perform some *analytic tasks* such as visualizations, data modeling on PowerBI.
+
+    Good English skills, verbal and written, with TOEIC score > 900. 
+    
+    Keen on researching, writing technical documents/blogs.
+
+    Like to contribute to open-sources.
+
+    Languages of choice: SQL, Python, Typescript/Javascript, Golang, Dart, Bash
+
 education:
-  title: Education
-  info:
-    - degree: Bachelor of Computer Science
-      university: PTIT (Post & Telecommunication Institute of Technology)
-      time: 2011 - 2015
+  - degree: Bachelor of Computer Science
+    university: PTIT (Post & Telecommunication Institute of Technology)
+    time: 2011 - 2015
+
 experiences:
-  title: Experiences
-  info:
-    - role: Data Engineer
-      time: 2020 - current
-      company: Nexcel
-      details: |
-        Develop in-house products - mostly uses Microsoft technology: 
-        - Built custom data warehouse and ETL processes from scratch (__SQL Server__, SSIS)
-        - Design SSAS models for _data analytics_ and custom visuals via Typescript on PowerBI
-        - Optimize T-SQL query execution plans
-        - Write stored procedures for other reporting services
+  - role: Data Engineer
+    time: 2020 - now
+    company: Nexcel - Fulltime
+    details: |
+      - Microsoft related techs (Windows OS, Availability Groups, Failover Clusters...)
+      - Data Analytics (PowerBI)
+      - ETL pipeline, data warehouse (SSIS / T-SQL / MySQL)
+      - SQL Server performance optimizations
+    # projects:
+    #   - title: Reporting System
+    #     icon: fas fa-briefcase
+    #     # role: Data warehouse developer
+    #     tagline:
 
-    - role: SQL Developer
-      time: 2019 - 2020
-      company: Bosch
-      details: |
-        Enterprise level technology:
-        - Create Oracle PL/SQL packages
-        - Refactored old code base and improved performance
 
-    - role: Software Developer
-      time: 2016 - 2019
-      company: BTM Global
-      details: |
-        Outsourcing:
-        - Maintain Oracle's [Retail Insights](https://docs.oracle.com/cd/E22577_01/pdf/150/ri/html/user_guide/introduction.htm) data warehouse
-        - Customize ETL process via ODI (Oracle Data Integrator) or ShellScript
-        - Data visualization with OBIEE (Oracle Business Intelligence Enterprise Edition)
-        - Javascript developer for Oracle Netsuite ERP projects
-      # projects:
-      #   - title: Datawarehouse Customizing
-      #     icon: fas fa-table
-      #     role: Datawarehouse developer
-      #     tagline: |
-      #       - Main maintainer of Oracle [Retail Insights](https://docs.oracle.com/cd/E22577_01/pdf/150/ri/html/user_guide/introduction.htm) datawarehouse 
-      #       - Customize ETL processes (ODI), add new dimensions based on customer need
-      #       - Data visualization via BI tools (OBIEE, BIP)
-      #       - Daily job monitoring & customer support
+  - role: Database Developer
+    time: 2019 - 2020
+    company: Bosch - Fulltime
+    details: |
+      - PL/SQL developer
+      - Oracle performance optimizations
 
-# additional-experiences:
-#   - role: Back-end Developer
-#     time: 2018 - 2018
-#     company: GreenX Network - Parttime
-#     # details: description
-#     projects:
-#       - title: GreenX Token
-#         icon: fab fa-ethereum
-#         link: https://etherscan.io/token/0xdac15794f0fadfdcf3a93aeaabdc7cac19066724
-#         role: Backend developer
-#         tagline: |
-#           - Build Ethereum smart contracts (ERC-20 standard)
-#           - Develop NodeJS API server's authentication strategy (Passportjs)
-#           - Synchronize blockchain data with MySQL database (Web3js)
-#           - Maintain, develop front-end landing page (Laravel Blade)
+    # projects:
+    #   - title: Customer Administration Tool
+    #     icon: fas fa-user-cog
+    #     # role: Database developer
+    #     tagline:
+
+    #   - title: Automated Script Deployment Tool
+    #     icon: fas fa-robot
+    #     # role: JavaScript developer
+    #     tagline:
+
+  - role: Software Developer
+    time: 2016 - 2019
+    company: BTM Global - Fulltime
+    details: |
+      - Data Engineer (Oracle SQL, PL/SQL); ETL - (Oracle ODI, OBIEE)
+      - Bash script automations
+      - Unix OS (AIX)
+      - Javascript developer (Web ERP)
+      - Java developer (Retail Store's POS machine)
+    # projects:
+    #   - title: Vietnam Financial Localization
+    #     icon: fas fa-receipt
+    #     # role: JavaScript developer
+    #     tagline: |
+
+    #   - title: Data warehouse Customizing
+    #     icon: fas fa-table
+    #     # role: Data warehouse developer
+    #     tagline: |
+
+additional-experiences:
+  - role: Back-end Developer
+    time: 2018 - 2018
+    company: GreenX Network - Parttime
+    # details: description
+    projects:
+      - title: GreenX Token
+        icon: fab fa-ethereum
+        link: https://etherscan.io/token/0xdac15794f0fadfdcf3a93aeaabdc7cac19066724
+        role: Backend developer
+        tagline: |
+          - Start-up environment
+          - Solidity Ethereum blockchain contracts
+          - NodeJS (security with Oauth2)
+          - PHP Laravel
+          - MongoDB
 
 certifications:
       title: Certifications
@@ -127,23 +152,7 @@ certifications:
           start: 2022
           end: 2024
           organization: Score 990
-
-publications:
-    title: Tech Docs
-    # intro: |
-    #   You can list your publications in this section.
-    papers:
-      - title: Python web scraping tutorial
-        link: "https://github.com/tcd93/python-web-scraping"
-        # authors: Donald E. Knuth
-        # conference: Addison-Wesley, 1968
-
-      - title: "MSSQL execution plan introduction"
-        link: "https://tcd93.github.io/MSSQL-execution-plan/"
-
-      - title: "Performant SQL writing"
-        link: "https://tcd93.github.io/writing-better-SQL/"
-
+  
 # skills:
 #     title: Skills &amp; Proficiency
 
@@ -151,7 +160,7 @@ publications:
 #       - name: SQL, PL/SQL
 #         level: 100%
 
-#       - name: Javascript
+#       - name: JavaScript
 #         level: 90%
 
 #       - name: OOP (Typescript)
